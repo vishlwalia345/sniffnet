@@ -173,8 +173,8 @@ pub const ICONS_BYTES: &[u8] = include_bytes!("../../../resources/fonts/subset/i
 pub const ICONS: Font = Font::with_name("Glyphter");
 
 //font to display icons
-pub const EMOJY_BYTES: &[u8] = include_bytes!("../../../resources/fonts/subset/NotoEmoji.subset.ttf");
-pub const EMOJY: Font = Font::with_name("Noto Color Emoji");
+pub const EMOJY_BYTES: &[u8] = include_bytes!("../../../resources/fonts/full/NotoEmoji.ttf");
+pub const EMOJY: Font = Font::with_name("Noto Emoji");
 
 // font sizes
 pub const FONT_SIZE_FOOTER: f32 = 14.3;
