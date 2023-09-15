@@ -8,7 +8,7 @@ use iced::Length::Fixed;
 use iced::{Alignment, Font, Length, Renderer};
 
 use crate::countries::country_utils::{get_computer_tooltip, get_flag_tooltip};
-use crate::countries::flags_pictures::FLAGS_WIDTH_BIG;
+use crate::countries::flags_emojis::FLAGS_WIDTH_BIG;
 use crate::gui::styles::container::ContainerType;
 use crate::gui::styles::style_constants::{get_font, get_font_headers, FONT_SIZE_TITLE};
 use crate::gui::styles::text::TextType;

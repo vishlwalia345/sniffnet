@@ -172,6 +172,10 @@ pub fn get_font_headers(style: StyleType) -> Font {
 pub const ICONS_BYTES: &[u8] = include_bytes!("../../../resources/fonts/subset/icons.ttf");
 pub const ICONS: Font = Font::with_name("Glyphter");
 
+//font to display icons
+pub const EMOJY_BYTES: &[u8] = include_bytes!("../../../resources/fonts/subset/NotoEmoji.subset.ttf");
+pub const EMOJY: Font = Font::with_name("Noto Color Emoji");
+
 // font sizes
 pub const FONT_SIZE_FOOTER: f32 = 14.3;
 pub const FONT_SIZE_BODY: f32 = 16.8;

@@ -3,8 +3,12 @@ use iced::widget::Svg;
 use iced::{Length, Renderer};
 use serde::{Deserialize, Serialize};
 
-use crate::countries::flags_pictures::{
-    CN, DE, ES, FI, FLAGS_WIDTH_SMALL, FR, GB, GR, IT, JP, KR, PL, PT, RO, RU, SE, TR, UA,
+use crate::countries::flags_emojis::{
+    // CN, DE, ES, FI,
+    FLAGS_WIDTH_SMALL,
+    // FR, GB, GR,
+    IT,
+    // JP, KR, PL, PT, RO, RU, SE, TR, UA,
 };
 use crate::StyleType;
 
@@ -87,24 +91,25 @@ impl Language {
 
     pub fn get_flag(self) -> Svg<Renderer<StyleType>> {
         Svg::new(Handle::from_memory(Vec::from(match self {
-            Language::ZH => CN,
-            Language::DE => DE,
-            Language::ES => ES,
-            Language::FR => FR,
-            Language::EN => GB,
-            Language::IT => IT,
-            Language::KO => KR,
-            Language::PL => PL,
-            Language::PT => PT,
-            Language::RO => RO,
-            Language::RU => RU,
-            Language::TR => TR,
-            Language::UK => UA,
-            Language::EL => GR,
-            // Language::FA => IR,
-            Language::SV => SE,
-            Language::FI => FI,
-            Language::JA => JP,
+            // Language::ZH => CN,
+            // Language::DE => DE,
+            // Language::ES => ES,
+            // Language::FR => FR,
+            // Language::EN => GB,
+            // Language::IT => IT,
+            // Language::KO => KR,
+            // Language::PL => PL,
+            // Language::PT => PT,
+            // Language::RO => RO,
+            // Language::RU => RU,
+            // Language::TR => TR,
+            // Language::UK => UA,
+            // Language::EL => GR,
+            // // Language::FA => IR,
+            // Language::SV => SE,
+            // Language::FI => FI,
+            // Language::JA => JP,
+            _ => IT,
         })))
         .width(Length::Fixed(FLAGS_WIDTH_SMALL))
     }

@@ -2,7 +2,7 @@ use std::cmp::{min, Ordering};
 use std::sync::{Arc, Mutex};
 
 use crate::countries::country_utils::get_flag_tooltip;
-use crate::countries::flags_pictures::FLAGS_WIDTH_SMALL;
+use crate::countries::flags_emojis::FLAGS_WIDTH_SMALL;
 use crate::gui::styles::style_constants::get_font;
 use crate::networking::manage_packets::get_address_to_lookup;
 use crate::networking::types::address_port_pair::AddressPortPair;

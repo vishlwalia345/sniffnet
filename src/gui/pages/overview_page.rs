@@ -13,7 +13,7 @@ use iced::Length::{Fill, FillPortion};
 use iced::{Alignment, Font, Length, Renderer};
 
 use crate::countries::country_utils::get_flag_tooltip;
-use crate::countries::flags_pictures::FLAGS_WIDTH_BIG;
+use crate::countries::flags_emojis::FLAGS_WIDTH_BIG;
 use crate::gui::components::radio::chart_radios;
 use crate::gui::components::tab::get_pages_tabs;
 use crate::gui::styles::button::ButtonType;
