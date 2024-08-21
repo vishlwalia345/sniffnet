@@ -34,16 +34,16 @@ Known open problems are reported at the bottom of this file.
   
 | Feature                                            | Release    | 
 |----------------------------------------------------|------------|
-| Settings page: notifications, style, language      | ✅ (v1.1.0) |
+| Settings page: notifications, style, language      | ✅ (v1.1.1) |
 | Keyboard shortcuts                                 | ✅ (v1.1.2) |
 | Notify user when new release is available          | ✅ (v1.1.3) |
 | Styles based on color gradients                    | ✅ (v1.2.2) |
-| Custom TOML themes support                         | ✅ (v1.3.0) |
-| Filter traffic by port number                      | ✅ (v1.3.0) |
-| Advanced settings: UI scale factor and MMDBs paths | ✅ (v1.3.0) |
-| Proper table structure for connections list        | ✅ (v1.3.0) |
-| Extended documentation (Wiki)                      | ✅ (v1.3.0) |
-| Support more link types                            | ✅ (v1.3.0) |
+| Custom TOML themes support                         | ✅ (v1.3.1) |
+| Filter traffic by port number                      | ✅ (v1.3.1) |
+| Advanced settings: UI scale factor and MMDBs paths | ✅ (v1.3.1) |
+| Proper table structure for connections list        | ✅ (v1.3.1) |
+| Extended documentation (Wiki)                      | ✅ (v1.3.1) |
+| Support more link types                            | ✅ (v1.3.2) |
 | Filter inputs autocompletion                       | ❓(TBD)     |
 | Details about unassigned IPs                       | ❓(TBD)     |
 | Additional details about each notification event   | ❓(TBD)     |
